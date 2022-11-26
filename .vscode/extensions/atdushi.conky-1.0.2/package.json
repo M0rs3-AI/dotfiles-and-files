@@ -1,0 +1,51 @@
+{
+	"name": "conky",
+	"displayName": "Conky file support",
+	"description": "Add support for .conkyrc files in Linux",
+	"icon": "images/conky-manager-icon.png",
+	"publisher": "atdushi",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/atdushi/conky.git"
+	},
+	"version": "1.0.2",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "conky",
+				"aliases": [
+					"Conky",
+					"conky"
+				],
+				"extensions": [
+					".conkyrc"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "conky",
+				"scopeName": "source.conkyrc",
+				"path": "./syntaxes/conky.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "cb788d10-987f-431e-8c2f-3005db4cece0",
+		"publisherId": "6733c0c0-0cfd-4859-91ab-648a71a300d2",
+		"publisherDisplayName": "Atdushi",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1668550746912,
+		"preRelease": false
+	}
+}
